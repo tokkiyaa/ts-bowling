@@ -1,7 +1,7 @@
 ## How to start
 
 ```
-npm i
-npm run build
-npm start hoge
+npm i -g bowling-score
+bowling-score 12X3X456
+// 52
 ```

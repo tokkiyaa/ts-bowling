@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { getFrames, getScore } from '../src/index';
+import { getFrames, getScore } from '../src';
 
 describe('test getFrames', () => {
   it('与えられた文字列をフレームの配列に変換できる(Xなし)', () => {

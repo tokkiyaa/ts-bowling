@@ -1,3 +1,7 @@
+export function calculate(input: string) {
+  console.log(getScore(getFrames(input)));
+}
+
 export function getScore(frames: string[]): number {
   let score = 0;
 
@@ -27,7 +31,7 @@ export function getScore(frames: string[]): number {
   return score;
 }
 
-function getNumber(s: string) {
+function getNumber(s: string): number {
   s = s || '0';
 
   if (s === 'X')
