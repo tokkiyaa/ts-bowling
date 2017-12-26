@@ -1,8 +1,11 @@
 {
-  "name": "ts",
+  "name": "bowling-score",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "bowling-score": "dist/bin/index.js"
+  },
   "scripts": {
     "test": "mocha -r ts-node/register test/*.ts",
     "watch": "tsc -w",
