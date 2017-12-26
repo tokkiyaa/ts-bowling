@@ -1,0 +1,26 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/*.ts",
+    "watch": "tsc -w",
+    "build": "tsc",
+    "start": "node dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "^4.0.10",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.5.2",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "ts-node": "^4.0.2"
+  }
+}
